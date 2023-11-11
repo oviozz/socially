@@ -1,0 +1,16 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #2D3441;
+
+}
+
+
+.titleFont{
+    font-family: 'Agbalumo', sans-serif;
+}
