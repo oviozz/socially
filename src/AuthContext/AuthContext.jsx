@@ -10,7 +10,7 @@ export const AuthProvider = ({ children }) => {
     const userInfo = getUserAuth();
 
     useEffect(() => {
-        if (userInfo.uid){
+        if (userInfo?.uid){
             setLoggedIn(true)
         }
     }, [])
